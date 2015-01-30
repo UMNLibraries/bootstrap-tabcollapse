@@ -20,7 +20,7 @@
         accordionClass: 'visible-xs',
         tabsClass: 'hidden-xs',
         accordionTemplate: function(heading, groupId, parentId, active){
-            return '<div class="panel style="overflow:visible;>' +
+            return '<div class="panel panel-default style="overflow:visible;>' +
                 '   <div class="panel-heading ' + (active ? '' : 'collapsed') + '" data-parent="#' + parentId + '" href="#' + groupId + '" data-toggle="collapse">' +
                 '      <h4 class="panel-title">' + heading + '</h4>' +
                 '   </div>' +
